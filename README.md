@@ -6,9 +6,9 @@ You might ask why it's smart to run OwnCloud on Docker, the answer is that it ma
 
 Build it:
 
-docker build -t <username>/<imagename> .
+docker build -t *username*/*imagename* .
 
-where <username> and <imagename> can be whatever you want
+where username and imagename can be whatever you want
 
 Run it: docker run -d -i -t -p 443:443 -p 80:80 comzone/rpi-owncloud6
 
